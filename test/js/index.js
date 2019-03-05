@@ -1,0 +1,1 @@
+"use strict";function addIndex(){console.log("我是index中的 addIndex")}var nameList=["张三","李四"];nameList.map(function(n){console.log(n)}),console.log("hahahhah");
