@@ -262,12 +262,12 @@ gulp.task('connect', function () {
 		port: 80, // 默认开启 8080
 		livereload: true, // 自动刷新
 		root: './src',
-		// host: 'm.healthjd.com',
+		// host: 'test.com',
 		middleware: function (connect, opt) {
 			return [
 				// 设置反向代理
-				// proxy('/client', {
-				// 	target: 'http://api.healthjd.com',
+				// proxy('/api', {
+				// 	target: 'test.com',
 				// 	changeOrigin: true
 				// })
 			]
